@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+.App:focus, .App:hover {
+  animation-name: changeColor;
+  transform: scale(1.5);
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+@keyframes changeColor {
+  0% { color: black}
+
+  50% { color:green}
+
+  100% {color: red}
+  
+}
