@@ -1,0 +1,25 @@
+.header {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.list_wrapper {
+    width: 880px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+.buttonList_item:not(:first-child) {
+    margin-left: 5px ;
+
+}
+
+.link_item:not(:first-child) {
+    margin-left: 36px ;
+}
