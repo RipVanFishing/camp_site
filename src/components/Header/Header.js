@@ -1,20 +1,29 @@
 import React from "react";
 import css from "./Header.module.css";
+import { FaTelegramPlane, FaWhatsapp } from 'react-icons/fa';
 import buttons from "./TypeButton/TypeButton.json";
 import navs from "./HeaderNav/headerNav.json"
 import TypeButton from "./TypeButton/TypeButton";
 import HeaderNav from "./HeaderNav";
+import Telephone from "./Telephone/Telephone";
+
 const Header = () => {
+    
+  
     return (
         <header className={css.header}>
             <div className={css.list_wrapper}>
             <ul className={css.list}>
-                {buttons.map(button => (<li className={css.buttonList_item}><TypeButton name={button.label} key={button.id}/></li>))}
+                {buttons.map(button => (<TypeButton key={button.id}  style={{color:button.color}} name={button.label}/>))}
             </ul>
             <ul className={css.list}>
-                {navs.map(nav =>(<li className={css.link_item}><HeaderNav key={nav.id} name={nav.name} /></li>) )}
+                {navs.map(nav =>(<HeaderNav  key={nav.name}   name={nav.name} />) )}
                 </ul>
-                </div>
+                <div className={css.telephone_wrapper}> <Telephone /></div>
+                <FaTelegramPlane size={20}  />
+                <FaWhatsapp size={20} />
+            </div>
+             
         </header>
     )
 }

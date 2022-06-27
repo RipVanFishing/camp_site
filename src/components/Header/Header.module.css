@@ -5,21 +5,22 @@
 }
 
 .list_wrapper {
-    width: 880px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+   justify-content: space-between;
 }
 
 .list {
     list-style: none;
     display: flex;
 }
-.buttonList_item:not(:first-child) {
-    margin-left: 5px ;
 
+.telephone_wrapper {
+    display: flex;
+    align-items: center;
+   
+    
 }
 
-.link_item:not(:first-child) {
-    margin-left: 36px ;
-}
+

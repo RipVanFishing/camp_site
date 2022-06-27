@@ -10,3 +10,7 @@
     background-color: #BF5002;
     color: white;
 }
+.buttonList_item:not(:first-child) {
+    margin-left: 5px;
+
+}
