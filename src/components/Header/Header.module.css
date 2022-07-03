@@ -22,5 +22,18 @@
    
     
 }
+.icon_wrapper {
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo_wrapper {
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
