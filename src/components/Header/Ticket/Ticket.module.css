@@ -1,0 +1,14 @@
+.cart_link {
+    position: relative;
+    color: #000000;
+    text-decoration: none;
+}
+
+.cart_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+

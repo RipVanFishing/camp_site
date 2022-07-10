@@ -29,11 +29,16 @@
     align-items: center;
 }
 .logo_wrapper {
-    padding-top: 10px;
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.service_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 

@@ -9,6 +9,7 @@ import HeaderNav from "./HeaderNav";
 import Telephone from "./Telephone/Telephone";
 import Logo from "./Logo/Logo";
 import Cart from "./Cart/Cart";
+import Ticket from "./Ticket/Ticket";
 
 const Header = () => {
     
@@ -33,7 +34,10 @@ const Header = () => {
                 <ul className={css.list}>
                    {links.map(link => ( <HeaderNav key={link.name} name={link.name} />))}
                 </ul>
+                <div className={css.service_wrap}>
                 <Cart />
+                <Ticket />
+                </div>
         </div>
         </header>
     )

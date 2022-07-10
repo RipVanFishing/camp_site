@@ -1,4 +1,5 @@
 .cart_link {
+    position: relative;
     color: #000000;
     text-decoration:none;
 }
@@ -11,9 +12,12 @@
 }
 
 .cart_link::before {
-    content: " ";
+    position:absolute;
+    content: "";
+    transform: translate(-120%, -50%);
+    top: 20%;
     width: 10px;
     height: 10px;
-   background-image: red;
-
+   background-color:#BF5002;
+    border-radius: 50%;
 }
