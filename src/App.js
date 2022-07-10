@@ -4,8 +4,9 @@ import './App.css';
 function App() {
   return (
     <div className='container'>
-    
-      <Header />
+      <div className='hero_wrap'>
+        <Header />
+        </div>
       
     </div>
   );
